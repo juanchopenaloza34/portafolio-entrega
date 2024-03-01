@@ -1,0 +1,103 @@
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #0056b3;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+/* Estilos de secciones */
+section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+section h2,
+section h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Reducir tamaño de las imágenes */
+.experiencia img {
+    max-width: 100px; 
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para enlaces de contacto */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffc107;
+}
